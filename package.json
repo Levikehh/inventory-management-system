@@ -1,0 +1,22 @@
+{
+  "name": "ims",
+  "version": "1.0.0",
+  "description": "Inventory Management System by NoMindz Studios",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "NoMindz Studios",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.0.2",
+    "body-parser": "^1.19.0",
+    "bwip-js": "^2.0.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "log-to-file": "^2.0.2",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2"
+  }
+}
