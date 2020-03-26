@@ -12,7 +12,8 @@ const port = process.env.PORT;
     //console.log("asd")
     var old = console.log;
     console.log = function(line){
-        log(line, '.log')
+        let today = new Date().toDateString().split(' ').join('-')
+        log(line, `logs/${today}.log`)
         old.apply(this, arguments)
     }
 
@@ -36,7 +37,6 @@ app.use('/inventory', inventoryRoute)
     var old = console.log;
     old.apply(this, arguments)
 }*/
-
 
 mongoose.connect(process.env.DATABASE_PRODUCTION, {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
     if(err) console.log(err)
