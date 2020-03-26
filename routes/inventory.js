@@ -36,7 +36,7 @@ router.post('/add', async (req, res) => {
             if (err) {
                 // `err` may be a string or Error object
             } else {
-                fs.writeFile(`../api/barCodes/${req.body.ID}.png`, png,function(err) {
+                fs.writeFile(`barCodes/${req.body.ID}.png`, png, function(err) {
                     if(err) {
                         console.log(err);
                     } else {
