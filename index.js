@@ -20,6 +20,7 @@ const port = process.env.PORT;
 })()
 const itemRoute = require('./routes/item')
 const inventoryRoute = require('./routes/inventory')
+const editDBRoute = require('./routes/databaseEditor')
 
 
 app.use(bodyParser.json())
@@ -29,6 +30,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.use('/item', itemRoute)
 app.use('/inventory', inventoryRoute)
+app.use('/edit/database', editDBRoute)
 
 
 /*

@@ -43,11 +43,6 @@ router.post('/add', async (req, res) => {
                         console.log("The file was saved!");
                     }
                 });
-                
-                // `png` is a Buffer
-                // png.length           : PNG file length
-                // png.readUInt32BE(16) : PNG image width
-                // png.readUInt32BE(20) : PNG image height
             }
         });
         console.log(`Item ${req.body.ID} is created in Inventory`)

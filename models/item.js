@@ -10,6 +10,8 @@ const itemSchema = new mongoose.Schema({
     releaseDate: {type: Date},
     newTillDate: {type: Date},
     isPublic: {type: Boolean},
+}, {
+    strict: false
 })
 
 module.exports = mongoose.model('Item', itemSchema, 'items')
