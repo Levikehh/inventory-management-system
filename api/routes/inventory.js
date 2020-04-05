@@ -65,4 +65,12 @@ router.get('/lookup/:id', async (req, res) => {
     return res.status(200).send(item)
 })
 
+router.get('/all', async (req, res) => {
+    const item = await Inventory.find()
+    if(!item) {
+        return res.status(400).send('ID is not found')
+    }
+    return res.status(200).send(item)
+})
+
 module.exports = router

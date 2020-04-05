@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    script(type='text/javascript', src='dist/jquery.min.js')
+    script(src="https://kit.fontawesome.com/70f2485383.js" crossorigin="anonymous")
+    link(rel="stylesheet", href="/public/styles/master.css")
+    link(rel="stylesheet", href="/css/all.css")
+    block title
+      title Default title
+  body
+    .menu-block
+      .container
+        .profile-picture
+        .profile-info
+            p#name= name
+            a(href='#') Edit
+        ul.upperNavbar
+            li.menu-item <a><i class="fas fa-home"></i>Home</a>
+            li.menu-item <a><i class="fas fa-user"></i>Members</a>
+            li.menu-item <a><i class="fas fa-database"></i>Database</a>
+            li.menu-item <a><i class="far fa-chart-bar"></i>Statisics</a>
+        ul.navbar
+            li.menu-item <a><i class="fas fa-cog"></i>Settings</a>
+    block content

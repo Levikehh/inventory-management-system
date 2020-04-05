@@ -2,26 +2,22 @@ const express = require('express')
 const dotenv = require('dotenv/config')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-
 const log = require('log-to-file')
+const path = require('path')
 
 const app = express()
 const port = process.env.APPPORT;
 
-(function() {
-    var old = console.log;
-    console.log = function(line){
-        let today = new Date().toDateString().split(' ').join('-')
-        log(line, `api/logs/${today}.log`)
-        old.apply(this, arguments)
-    }
-
-})()
+const dashboardRoute = require('./routes/dashboard')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+app.set("view engine", "pug")
+app.set('views', path.join(__dirname, '/views'))
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.use('/', dashboardRoute)
+app.use('/home', dashboardRoute)
+app.use('/dashboard', dashboardRoute)
 
 mongoose.connect(process.env.DATABASE_PRODUCTION, {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
     if(err) console.log(err)
