@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
 })
 
 router.get('/rm', async (req,res) => {
-    let updatedItem = await Item.updateMany({}, { $unset: { name: 'foo' } });
+    let updatedItem = await Item.updateMany({}, { $unset: { somethingNewProperty: 'somethingNewValue' } });
 
     return res.status(200).send("Kay rm")
 })

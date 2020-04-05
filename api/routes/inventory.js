@@ -55,7 +55,7 @@ router.post('/add', async (req, res) => {
 
 router.get('/lookup/:id', async (req, res) => {
     console.log(`Search for: ${req.params.id}`)
-    const item = await Inventory.findOne({ID: req.params.id})
+    const item = await Inventory.findOne({ $or: [{ID: req.params.id}, {barCode: req.params.id}]})
     if(!item) {
         console.log(`${req.params.id} is NOT found`)
         return res.status(400).send('ID is not found')

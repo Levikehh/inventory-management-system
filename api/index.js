@@ -13,7 +13,7 @@ const port = process.env.PORT;
     var old = console.log;
     console.log = function(line){
         let today = new Date().toDateString().split(' ').join('-')
-        log(line, `logs/${today}.log`)
+        log(line, `api/logs/${today}.log`)
         old.apply(this, arguments)
     }
 
