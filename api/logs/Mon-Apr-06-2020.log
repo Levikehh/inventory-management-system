@@ -1,0 +1,249 @@
+2020.04.06, 17:17:22.0463 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:17:22.0477 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:18:20.0536 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:18:20.0596 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:19:45.0349 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:19:45.0438 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:27:43.0093 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:27:43.0110 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:27:55.0440 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:27:55.0457 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:30:36.0111 UTC -> Creating new item in Items with ID: nem
+2020.04.06, 17:30:36.0300 UTC -> Item nem is created in Items
+2020.04.06, 17:31:06.0271 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:31:06.0329 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:31:10.0496 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:31:10.0503 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:31:14.0472 UTC -> Creating new item in Items with ID: nem
+2020.04.06, 17:31:14.0641 UTC -> Item nem is created in Items
+2020.04.06, 17:32:13.0662 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:32:13.0673 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:32:22.0300 UTC -> Creating new item in Items with ID: sok
+2020.04.06, 17:32:22.0476 UTC -> Item sok is created in Items
+2020.04.06, 17:32:22.0693 UTC -> Creating new item in Inventory with ID: sok
+2020.04.06, 17:32:23.0033 UTC -> Item sok is created in Inventory
+2020.04.06, 17:32:23.0038 UTC -> statusCode: 200
+2020.04.06, 17:32:23.0042 UTC -> [object Object]
+2020.04.06, 17:32:23.0051 UTC -> Error: ENOENT: no such file or directory, open 'D:\works\web-development\ims\barCodes\sok.png'
+2020.04.06, 17:33:11.0179 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:33:11.0189 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:33:21.0546 UTC -> Creating new item in Items with ID: kaja
+2020.04.06, 17:33:21.0712 UTC -> Item kaja is created in Items
+2020.04.06, 17:33:21.0934 UTC -> Creating new item in Inventory with ID: kaja
+2020.04.06, 17:33:22.0173 UTC -> Item kaja is created in Inventory
+2020.04.06, 17:33:22.0180 UTC -> statusCode: 200
+2020.04.06, 17:33:22.0187 UTC -> [object Object]
+2020.04.06, 17:33:22.0198 UTC -> The file was saved!
+2020.04.06, 17:34:30.0133 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:34:30.0149 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:35:22.0551 UTC -> Creating new item in Items with ID: pija
+2020.04.06, 17:35:22.0713 UTC -> Item pija is created in Items
+2020.04.06, 17:35:22.0882 UTC -> Creating new item in Inventory with ID: pija
+2020.04.06, 17:35:23.0090 UTC -> Item pija is created in Inventory
+2020.04.06, 17:35:23.0096 UTC -> statusCode: 200
+2020.04.06, 17:35:23.0112 UTC -> [object Object]
+2020.04.06, 17:35:23.0139 UTC -> The file was saved!
+2020.04.06, 17:54:23.0909 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:54:23.0925 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:56:17.0316 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:56:17.0323 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:59:03.0178 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 17:59:03.0201 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 18:02:44.0877 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3001         |
+|                                        |
++----------------------------------------+
+
+2020.04.06, 18:02:44.0902 UTC -> 
++----------------------------------------+
+|                                        |
+|   NoMindz Inventory Management System  |
+|         Listening on port 3000         |
+|                                        |
++----------------------------------------+
+

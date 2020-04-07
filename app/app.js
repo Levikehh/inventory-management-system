@@ -9,6 +9,7 @@ const app = express()
 const port = process.env.APPPORT;
 
 const dashboardRoute = require('./routes/dashboard')
+const statsRoute = require('./routes/statistics')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
@@ -18,6 +19,8 @@ app.set('views', path.join(__dirname, '/views'))
 app.use('/', dashboardRoute)
 app.use('/home', dashboardRoute)
 app.use('/dashboard', dashboardRoute)
+
+app.use('/stats', statsRoute)
 
 mongoose.connect(process.env.DATABASE_PRODUCTION, {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
     if(err) console.log(err)

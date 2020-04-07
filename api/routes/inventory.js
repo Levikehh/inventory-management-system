@@ -18,6 +18,7 @@ router.post('/add', async (req, res) => {
         ID: req.body.ID,
         barCode: req.body.barCode,
         Stock: stock,
+        Ordered: 0
     });
     try {
         const savedInventory = await inventory.save()
@@ -36,7 +37,7 @@ router.post('/add', async (req, res) => {
             if (err) {
                 // `err` may be a string or Error object
             } else {
-                fs.writeFile(`barCodes/${req.body.ID}.png`, png, function(err) {
+                fs.writeFile(`api/barCodes/${req.body.ID}.png`, png, function(err) {
                     if(err) {
                         console.log(err);
                     } else {

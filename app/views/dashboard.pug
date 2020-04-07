@@ -10,6 +10,7 @@ block content
             th ID
             th Barcode
             th Stock
+            th Ordered
         tr
         - val = 0
         each data in datas
@@ -17,4 +18,5 @@ block content
             td= JSON.stringify(data.ID)
             td= JSON.stringify(data.barCode)
             td= JSON.stringify(data.Stock)
+            td= JSON.stringify(data.Ordered)
             tr
